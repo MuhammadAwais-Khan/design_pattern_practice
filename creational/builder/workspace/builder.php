@@ -21,5 +21,3 @@ writeln('END TESTING BUILDER PATTERN');
 function writeln($line_in) {
     echo $line_in."<br/>";
 }
-
-?>
