@@ -70,9 +70,9 @@ class HTMLPageDirector extends AbstractPageDirector {
     public function buildPage() {
         $this->builder->setTitle('Testing the HTMLPage');
         $this->builder->setHeading('Testing the HTMLPage');
-        $this->builder->setText('Testing, testing, testing!');
-        $this->builder->setText('Testing, testing, testing, or!');
-        $this->builder->setText('Testing, testing, testing, more!');
+        $this->builder->setText('Testing1, testing1, testing! </br>');
+        $this->builder->setText('Testing2, testing2, testing2, or! </br>');
+        $this->builder->setText('Testing3, testing3, testing3 more!');
         $this->builder->formatPage();
     }
     public function getPage() {
