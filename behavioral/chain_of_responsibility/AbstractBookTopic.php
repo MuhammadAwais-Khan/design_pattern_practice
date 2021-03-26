@@ -5,4 +5,3 @@ abstract class AbstractBookTopic {
     abstract function getTitle();
     abstract function setTitle($title_in);
 }
-?>

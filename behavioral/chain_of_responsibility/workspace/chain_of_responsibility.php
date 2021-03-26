@@ -50,5 +50,3 @@ writeln("END TESTING CHAIN OF RESPONSIBILITY PATTERN");
 function writeln($line_in) {
     echo $line_in."<br/>";
 }
-
-?>?>
