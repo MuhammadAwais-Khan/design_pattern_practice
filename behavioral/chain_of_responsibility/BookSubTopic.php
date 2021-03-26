@@ -24,3 +24,4 @@ class BookSubTopic extends AbstractBookTopic {
     }
     function setTitle($title_in) {$this->title = $title_in;}
 }
+?>
