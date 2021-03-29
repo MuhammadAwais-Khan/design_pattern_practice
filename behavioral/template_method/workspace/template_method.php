@@ -9,7 +9,6 @@ writeln('BEGIN TESTING TEMPLATE PATTERN');
 writeln('');
 
 $book = new Book('PHP for Cats','Larry Truett');
-
 $exclaimTemplate = new TemplateExclaim();
 $starsTemplate = new TemplateStars();
 
