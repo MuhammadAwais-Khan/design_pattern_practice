@@ -21,7 +21,6 @@ abstract class TemplateAbstract {
     //  this function may be overridden,
     //  but does nothing if it is not
     function processAuthor($author) {
-
         return NULL;
     }
 }

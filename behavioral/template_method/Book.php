@@ -13,4 +13,3 @@ class Book {
         return $this->getTitle() . ' by ' . $this->getAuthor();
     }
 }
-
